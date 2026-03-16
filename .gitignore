@@ -1,0 +1,46 @@
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache and distribution
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Local environment and keys
+.env
+.env.local
+*.pem
+*.key
+
+# Data directories (local data lake)
+data/raw/
+data/staging/
+data/canonical/
+data/synthetic/
+data/features/
+data/models/
+data/alerts/
+data/cases/
+batch_results/
+
+# Experiment tracking
+mlruns/
+mlflow.db
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+temp/
+tmp/
