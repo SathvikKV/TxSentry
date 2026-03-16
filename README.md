@@ -83,19 +83,23 @@ sequenceDiagram
 
 ## Visual Gallery
 
-````carousel
+### Dashboard Overview
 ![Dashboard Overview](images/1.PNG)
-<!-- slide -->
+
+### Alert Queue
 ![Alert Queue](images/2.PNG)
-<!-- slide -->
+
+### Case Investigation
 ![Case Investigation](images/3.PNG)
-<!-- slide -->
+
+### Model Performance
 ![Model Performance](images/4.PNG)
-<!-- slide -->
+
+### Drift Monitoring
 ![Drift Monitoring](images/5.PNG)
-<!-- slide -->
+
+### Graph Explorer
 ![Graph Explorer](images/6.PNG)
-````
 
 ## Technical Results
 
@@ -132,4 +136,4 @@ sequenceDiagram
 cd txsentry/ui/txSentry-ui
 npm install
 npm run dev
-```
+```
